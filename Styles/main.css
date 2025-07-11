@@ -20,11 +20,12 @@
     padding: 10px 23px;
     border: none;
     border-radius: 7px;
+    cursor: pointer;
 }
 .primary-btn:hover{
     background-color: #eeab19;
     color: rgb(63, 63, 63);
-    transition-duration: 1s;
+    transition-duration: .5s;
 }
 
 /* google fonts INTER  */
@@ -67,6 +68,7 @@ nav .logo {
     font-weight: 800;
     color: var(--primary-color);
     font-size: 30px;
+    cursor: pointer;
 }
 
 /* banner section  */
@@ -265,7 +267,9 @@ nav .logo {
     border: none;
     font-size: 15px;
 }
-
+.contact form input:focus{
+    outline: .5px solid rgb(221, 221, 221);
+}
 .contact form textarea {
     width: 100%;
     padding: 20px 13px;
@@ -274,7 +278,9 @@ nav .logo {
     border: none;
     font-size: 15px;
 }
-
+.contact form textarea:focus{
+    outline: .5px solid rgb(221, 221, 221);
+}
 .contact form button {
     width: 100%;
     padding: 20px;
