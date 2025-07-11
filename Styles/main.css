@@ -36,7 +36,7 @@
 
 /* ------------------- */
 body {
-    background-color: #efeffd;
+    background-color: #f5f5ff;
 }
 
 /* header section  */
@@ -72,9 +72,9 @@ nav .logo {
 
 .banner .banner-des {
     font-size: 65px;
-
     max-width: 905px;
     margin: 0 auto;
+    color: #252432;
 }
 
 .banner button {
@@ -92,7 +92,7 @@ nav .logo {
 
 .action .action-heading {
     font-size: 49px;
-
+    color: #252432;
 }
 
 .action .action-des {
@@ -118,18 +118,78 @@ nav .logo {
 .users .users-heading {
     font-size: 38px;
     margin-bottom: 40px;
+    color: #252432;
 }
 
 .users .content h1 {
     font-size: 80px;
     color: var(--primary-color);
 }
-.users p{
+
+.users p {
     color: var(--secendary-text);
 
 }
-.users .users-container{
+
+.users .users-container {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
+}
+
+/* users feedback section  */
+.users-feedback {
+    max-width: var(--content-max-width);
+    margin: 0 auto 160px;
+}
+
+.users-feedback .feedback-heading {
+    font-size: 42px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #252432;
+}
+
+.users-feedback .feedback-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.users-feedback .content {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 14px;
+}
+.users-feedback .stars img{
+width: 16px;
+}
+.users-feedback .feedback-des{
+    margin: 20px 0;
+}
+.users-feedback .feedback-des p{
+    margin-top: 7px;
+    font-size: 15px;
+}
+.users-feedback .content-heading{
+    font-size: 20px;
+}
+.users-feedback .reviewer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.users-feedback .reviewer img{
+    border-radius: 100%;
+}
+.users-feedback .reviewer .p1{
+    font-weight: 700;
+    font-size: 14px;
+    color: #777777;
+}
+.users-feedback .reviewer .p2{
+    font-size: 14px;
+    color: var(--secendary-text);
+    margin-top: 5px;
 }
