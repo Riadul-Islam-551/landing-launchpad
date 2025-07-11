@@ -7,7 +7,7 @@
 
 :root {
     --primary-color: #4E47FF;
-    --secendary-text: #838383;
+    --secendary-text: #929292;
     --content-max-width: 1140px;
 }
 
@@ -162,39 +162,48 @@ nav .logo {
     padding: 24px;
     border-radius: 14px;
 }
-.users-feedback .stars img{
-width: 16px;
+
+.users-feedback .stars img {
+    width: 16px;
 }
-.users-feedback .feedback-des{
+
+.users-feedback .feedback-des {
     margin: 20px 0;
 }
-.users-feedback .feedback-des p{
+
+.users-feedback .feedback-des p {
     margin-top: 7px;
     font-size: 15px;
 }
-.users-feedback .content-heading{
+
+.users-feedback .content-heading {
     font-size: 20px;
 }
-.users-feedback .reviewer{
+
+.users-feedback .reviewer {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.users-feedback .reviewer img{
+
+.users-feedback .reviewer img {
     border-radius: 100%;
 }
-.users-feedback .reviewer .p1{
+
+.users-feedback .reviewer .p1 {
     font-weight: 700;
     font-size: 14px;
     color: #777777;
 }
-.users-feedback .reviewer .p2{
+
+.users-feedback .reviewer .p2 {
     font-size: 14px;
     color: var(--secendary-text);
     margin-top: 5px;
 }
+
 /* focus section  */
-.focus{
+.focus {
     padding: 70px 0;
     text-align: center;
     max-width: var(--content-max-width);
@@ -202,40 +211,48 @@ width: 16px;
     border-radius: 14px;
     margin: 0 auto 160px;
 }
-.focus .focus-heading{
+
+.focus .focus-heading {
     font-size: 50px;
 }
-.focus .focus-des{
+
+.focus .focus-des {
     margin: 20px 0;
     color: var(--secendary-text);
     font-size: 15px;
 }
-.focus button{
+
+.focus button {
     display: block;
-    margin: 0 auto 20px; 
+    margin: 0 auto 20px;
 }
-.focus img{
+
+.focus img {
     border-radius: 48px;
 }
 
 /* contact section  */
-.contact{
+.contact {
     max-width: var(--content-max-width);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto 160px;
+    margin: 0 auto 100px;
 }
-.contact .contact-heading{
-font-size: 97px;
+
+.contact .contact-heading {
+    font-size: 97px;
 }
-.contact form{
+
+.contact form {
     width: 490px;
 }
-.contact form label{
+
+.contact form label {
     display: block;
 }
-.contact form input{
+
+.contact form input {
     width: 100%;
     padding: 20px 13px;
     margin: 13px 0;
@@ -243,7 +260,8 @@ font-size: 97px;
     border: none;
     font-size: 15px;
 }
-.contact form textarea{
+
+.contact form textarea {
     width: 100%;
     padding: 20px 13px;
     margin: 13px 0;
@@ -251,7 +269,44 @@ font-size: 97px;
     border: none;
     font-size: 15px;
 }
-.contact form button{
+
+.contact form button {
     width: 100%;
     padding: 20px;
+}
+
+/* footer section  */
+footer {
+
+    background-color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+footer .footer-logo {
+    font-weight: 800;
+    color: var(--primary-color);
+    font-size: 100px;
+}
+footer .footer-des{
+    color: var(--secendary-text);
+    width: 512px;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 20px auto;
+}
+.footer ul{
+    /* margin-top: 20px; */
+
+}
+footer ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+footer ul li a{
+    text-decoration: none;
+    color: var(--secendary-text);
+    font-size: 15px;
+    padding: 10px;
+    margin: 0px 5px;
 }
