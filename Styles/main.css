@@ -193,3 +193,27 @@ width: 16px;
     color: var(--secendary-text);
     margin-top: 5px;
 }
+/* focus section  */
+.focus{
+    padding: 70px 0;
+    text-align: center;
+    max-width: var(--content-max-width);
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    margin: 0 auto 160px;
+}
+.focus .focus-heading{
+    font-size: 50px;
+}
+.focus .focus-des{
+    margin: 20px 0;
+    color: var(--secendary-text);
+    font-size: 15px;
+}
+.focus button{
+    display: block;
+    margin: 0 auto 20px; 
+}
+.focus img{
+    border-radius: 48px;
+}
