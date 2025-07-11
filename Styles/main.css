@@ -217,3 +217,41 @@ width: 16px;
 .focus img{
     border-radius: 48px;
 }
+
+/* contact section  */
+.contact{
+    max-width: var(--content-max-width);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 160px;
+}
+.contact .contact-heading{
+font-size: 97px;
+}
+.contact form{
+    width: 490px;
+}
+.contact form label{
+    display: block;
+}
+.contact form input{
+    width: 100%;
+    padding: 20px 13px;
+    margin: 13px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+.contact form textarea{
+    width: 100%;
+    padding: 20px 13px;
+    margin: 13px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+.contact form button{
+    width: 100%;
+    padding: 20px;
+}
